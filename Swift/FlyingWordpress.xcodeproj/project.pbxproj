@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		740C7AA820890ACB00B270E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740C7AA720890ACB00B270E0 /* AppDelegate.swift */; };
+		740C7AAA20890ACC00B270E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740C7AA920890ACC00B270E0 /* Assets.xcassets */; };
+		740C7AAD20890ACC00B270E0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 740C7AAB20890ACC00B270E0 /* MainMenu.xib */; };
+		743B9DB4208D9DE900AC9A64 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 743B9DAE208D9DE900AC9A64 /* thumbnail@2x.png */; };
+		743B9DB5208D9DE900AC9A64 /* LogoLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743B9DAF208D9DE900AC9A64 /* LogoLayer.swift */; };
+		743B9DB6208D9DE900AC9A64 /* FlyingWordPressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743B9DB0208D9DE900AC9A64 /* FlyingWordPressView.swift */; };
+		743B9DB7208D9DE900AC9A64 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 743B9DB1208D9DE900AC9A64 /* thumbnail.png */; };
+		743B9DB8208D9DE900AC9A64 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 743B9DB2208D9DE900AC9A64 /* Info.plist */; };
+		743B9DB9208D9DE900AC9A64 /* WordPressLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 743B9DB3208D9DE900AC9A64 /* WordPressLogo.png */; };
+		743B9DBA208D9E8000AC9A64 /* FlyingWordPressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743B9DB0208D9DE900AC9A64 /* FlyingWordPressView.swift */; };
+		743B9DBB208D9E8A00AC9A64 /* LogoLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743B9DAF208D9DE900AC9A64 /* LogoLayer.swift */; };
+		743B9DBC208D9F1A00AC9A64 /* WordPressLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 743B9DB3208D9DE900AC9A64 /* WordPressLogo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		740C7AA520890ACB00B270E0 /* FlyingWordPressTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyingWordPressTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		740C7AA720890ACB00B270E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		740C7AA920890ACC00B270E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		740C7AAC20890ACC00B270E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		740C7AAE20890ACC00B270E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740C7AAF20890ACC00B270E0 /* FlyingWordPressTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlyingWordPressTestApp.entitlements; sourceTree = "<group>"; };
+		740C7ABD208CC4CE00B270E0 /* FlyingWordPress.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingWordPress.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		743B9DAE208D9DE900AC9A64 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
+		743B9DAF208D9DE900AC9A64 /* LogoLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoLayer.swift; sourceTree = "<group>"; };
+		743B9DB0208D9DE900AC9A64 /* FlyingWordPressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyingWordPressView.swift; sourceTree = "<group>"; };
+		743B9DB1208D9DE900AC9A64 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		743B9DB2208D9DE900AC9A64 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743B9DB3208D9DE900AC9A64 /* WordPressLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WordPressLogo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		740C7AA220890ACB00B270E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740C7AB9208CC4CE00B270E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		740C7A862089073100B270E0 = {
+			isa = PBXGroup;
+			children = (
+				743B9DAD208D9DE900AC9A64 /* FlyingWordPress */,
+				740C7AA620890ACB00B270E0 /* FlyingWordPressTestApp */,
+				740C7A912089073100B270E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		740C7A912089073100B270E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				740C7AA520890ACB00B270E0 /* FlyingWordPressTestApp.app */,
+				740C7ABD208CC4CE00B270E0 /* FlyingWordPress.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		740C7AA620890ACB00B270E0 /* FlyingWordPressTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				740C7AA720890ACB00B270E0 /* AppDelegate.swift */,
+				740C7AA920890ACC00B270E0 /* Assets.xcassets */,
+				740C7AAB20890ACC00B270E0 /* MainMenu.xib */,
+				740C7AAE20890ACC00B270E0 /* Info.plist */,
+				740C7AAF20890ACC00B270E0 /* FlyingWordPressTestApp.entitlements */,
+			);
+			path = FlyingWordPressTestApp;
+			sourceTree = "<group>";
+		};
+		743B9DAD208D9DE900AC9A64 /* FlyingWordPress */ = {
+			isa = PBXGroup;
+			children = (
+				743B9DAF208D9DE900AC9A64 /* LogoLayer.swift */,
+				743B9DB0208D9DE900AC9A64 /* FlyingWordPressView.swift */,
+				743B9DB2208D9DE900AC9A64 /* Info.plist */,
+				743B9DB3208D9DE900AC9A64 /* WordPressLogo.png */,
+				743B9DB1208D9DE900AC9A64 /* thumbnail.png */,
+				743B9DAE208D9DE900AC9A64 /* thumbnail@2x.png */,
+			);
+			path = FlyingWordPress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		740C7ABA208CC4CE00B270E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		740C7AA420890ACB00B270E0 /* FlyingWordPressTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740C7AB020890ACC00B270E0 /* Build configuration list for PBXNativeTarget "FlyingWordPressTestApp" */;
+			buildPhases = (
+				740C7AA120890ACB00B270E0 /* Sources */,
+				740C7AA220890ACB00B270E0 /* Frameworks */,
+				740C7AA320890ACB00B270E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyingWordPressTestApp;
+			productName = FlyingWordPressTestApp;
+			productReference = 740C7AA520890ACB00B270E0 /* FlyingWordPressTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		740C7ABC208CC4CE00B270E0 /* FlyingWordPress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740C7AC4208CC4CE00B270E0 /* Build configuration list for PBXNativeTarget "FlyingWordPress" */;
+			buildPhases = (
+				740C7AB8208CC4CE00B270E0 /* Sources */,
+				740C7AB9208CC4CE00B270E0 /* Frameworks */,
+				740C7ABA208CC4CE00B270E0 /* Headers */,
+				740C7ABB208CC4CE00B270E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyingWordPress;
+			productName = FlyingWordPress;
+			productReference = 740C7ABD208CC4CE00B270E0 /* FlyingWordPress.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		740C7A872089073100B270E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = TriKatz;
+				TargetAttributes = {
+					740C7AA420890ACB00B270E0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					740C7ABC208CC4CE00B270E0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 740C7A8A2089073100B270E0 /* Build configuration list for PBXProject "FlyingWordpress" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 740C7A862089073100B270E0;
+			productRefGroup = 740C7A912089073100B270E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				740C7ABC208CC4CE00B270E0 /* FlyingWordPress */,
+				740C7AA420890ACB00B270E0 /* FlyingWordPressTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		740C7AA320890ACB00B270E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740C7AAA20890ACC00B270E0 /* Assets.xcassets in Resources */,
+				740C7AAD20890ACC00B270E0 /* MainMenu.xib in Resources */,
+				743B9DBC208D9F1A00AC9A64 /* WordPressLogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740C7ABB208CC4CE00B270E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743B9DB7208D9DE900AC9A64 /* thumbnail.png in Resources */,
+				743B9DB4208D9DE900AC9A64 /* thumbnail@2x.png in Resources */,
+				743B9DB9208D9DE900AC9A64 /* WordPressLogo.png in Resources */,
+				743B9DB8208D9DE900AC9A64 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		740C7AA120890ACB00B270E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740C7AA820890ACB00B270E0 /* AppDelegate.swift in Sources */,
+				743B9DBA208D9E8000AC9A64 /* FlyingWordPressView.swift in Sources */,
+				743B9DBB208D9E8A00AC9A64 /* LogoLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740C7AB8208CC4CE00B270E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743B9DB5208D9DE900AC9A64 /* LogoLayer.swift in Sources */,
+				743B9DB6208D9DE900AC9A64 /* FlyingWordPressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		740C7AAB20890ACC00B270E0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740C7AAC20890ACC00B270E0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		740C7A982089073100B270E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		740C7A992089073100B270E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		740C7AB120890ACC00B270E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FlyingWordPressTestApp/FlyingWordPressTestApp.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y9N34UZ32J;
+				INFOPLIST_FILE = FlyingWordPressTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trikatz.FlyingWordPressTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		740C7AB220890ACC00B270E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FlyingWordPressTestApp/FlyingWordPressTestApp.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y9N34UZ32J;
+				INFOPLIST_FILE = FlyingWordPressTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trikatz.FlyingWordPressTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		740C7AC5208CC4CE00B270E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y9N34UZ32J;
+				INFOPLIST_FILE = FlyingWordPress/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trikatz.FlyingWordPress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		740C7AC6208CC4CE00B270E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y9N34UZ32J;
+				INFOPLIST_FILE = FlyingWordPress/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trikatz.FlyingWordPress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		740C7A8A2089073100B270E0 /* Build configuration list for PBXProject "FlyingWordpress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740C7A982089073100B270E0 /* Debug */,
+				740C7A992089073100B270E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740C7AB020890ACC00B270E0 /* Build configuration list for PBXNativeTarget "FlyingWordPressTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740C7AB120890ACC00B270E0 /* Debug */,
+				740C7AB220890ACC00B270E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740C7AC4208CC4CE00B270E0 /* Build configuration list for PBXNativeTarget "FlyingWordPress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740C7AC5208CC4CE00B270E0 /* Debug */,
+				740C7AC6208CC4CE00B270E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 740C7A872089073100B270E0 /* Project object */;
+}
