@@ -163,7 +163,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = TriKatz;
+				ORGANIZATIONNAME = "secret pizza party";
 				TargetAttributes = {
 					740C7AA420890ACB00B270E0 = {
 						CreatedOnToolsVersion = 9.3;
@@ -173,7 +173,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 740C7A8A2089073100B270E0 /* Build configuration list for PBXProject "FlyingWordpress" */;
+			buildConfigurationList = 740C7A8A2089073100B270E0 /* Build configuration list for PBXProject "FlyingWordPress" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -411,15 +411,16 @@
 		740C7AC5208CC4CE00B270E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer: Nick Hamze (A9SC3TKTPK)";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = AJ72MKJW99;
+				DEVELOPMENT_TEAM = 7DZ24LFR8Q;
 				INFOPLIST_FILE = FlyingWordPress/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = com.trikatz.FlyingWordPress;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spp.FlyingWordPress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -427,15 +428,16 @@
 		740C7AC6208CC4CE00B270E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer: Nick Hamze (A9SC3TKTPK)";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = AJ72MKJW99;
+				DEVELOPMENT_TEAM = 7DZ24LFR8Q;
 				INFOPLIST_FILE = FlyingWordPress/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = com.trikatz.FlyingWordPress;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spp.FlyingWordPress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
@@ -443,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		740C7A8A2089073100B270E0 /* Build configuration list for PBXProject "FlyingWordpress" */ = {
+		740C7A8A2089073100B270E0 /* Build configuration list for PBXProject "FlyingWordPress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				740C7A982089073100B270E0 /* Debug */,
