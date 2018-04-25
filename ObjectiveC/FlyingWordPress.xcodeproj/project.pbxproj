@@ -18,8 +18,8 @@
 		740C7ACD208D089800B270E0 /* LogoLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C7ACA208CC54A00B270E0 /* LogoLayer.m */; };
 		740C7ACE208D08A100B270E0 /* FlyingWordPressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C7AC1208CC4CE00B270E0 /* FlyingWordPressView.m */; };
 		740C7ACF208D08AF00B270E0 /* WordPressLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 740C7AC7208CC51500B270E0 /* WordPressLogo.png */; };
-		743B9DA7208D9A1C00AC9A64 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 743B9DA5208D9A1C00AC9A64 /* thumbnail@2x.png */; };
-		743B9DA8208D9A1C00AC9A64 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 743B9DA6208D9A1C00AC9A64 /* thumbnail.png */; };
+		BE5056CA208FDDFA00D012BD /* thumbnail@2x.tif in Resources */ = {isa = PBXBuildFile; fileRef = BE5056C8208FDDFA00D012BD /* thumbnail@2x.tif */; };
+		BE5056CB208FDDFA00D012BD /* thumbnail.tif in Resources */ = {isa = PBXBuildFile; fileRef = BE5056C9208FDDFA00D012BD /* thumbnail.tif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +37,8 @@
 		740C7AC9208CC54A00B270E0 /* LogoLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogoLayer.h; sourceTree = "<group>"; };
 		740C7ACA208CC54A00B270E0 /* LogoLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogoLayer.m; sourceTree = "<group>"; };
 		740C7AD0208D17DC00B270E0 /* ObjcBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcBridgingHeader.h; sourceTree = "<group>"; };
-		743B9DA5208D9A1C00AC9A64 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
-		743B9DA6208D9A1C00AC9A64 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		BE5056C8208FDDFA00D012BD /* thumbnail@2x.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "thumbnail@2x.tif"; sourceTree = "<group>"; };
+		BE5056C9208FDDFA00D012BD /* thumbnail.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = thumbnail.tif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 				740C7ACA208CC54A00B270E0 /* LogoLayer.m */,
 				740C7AC3208CC4CE00B270E0 /* Info.plist */,
 				740C7AC7208CC51500B270E0 /* WordPressLogo.png */,
-				743B9DA6208D9A1C00AC9A64 /* thumbnail.png */,
-				743B9DA5208D9A1C00AC9A64 /* thumbnail@2x.png */,
+				BE5056C9208FDDFA00D012BD /* thumbnail.tif */,
+				BE5056C8208FDDFA00D012BD /* thumbnail@2x.tif */,
 			);
 			path = FlyingWordPress;
 			sourceTree = "<group>";
@@ -208,8 +208,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				740C7AC8208CC51500B270E0 /* WordPressLogo.png in Resources */,
-				743B9DA7208D9A1C00AC9A64 /* thumbnail@2x.png in Resources */,
-				743B9DA8208D9A1C00AC9A64 /* thumbnail.png in Resources */,
+				BE5056CA208FDDFA00D012BD /* thumbnail@2x.tif in Resources */,
+				BE5056CB208FDDFA00D012BD /* thumbnail.tif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

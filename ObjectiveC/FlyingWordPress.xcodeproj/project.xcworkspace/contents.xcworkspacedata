@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/nickhamze/Repos/Flying-W/ObjectiveC/FlyingWordPress.xcodeproj">
+      location = "group:../../../../Desktop/thumbnail.tif">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../Desktop/thumbnail@2x.tif">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
