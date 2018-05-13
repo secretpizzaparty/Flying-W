@@ -414,7 +414,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7DZ24LFR8Q;
+				DEVELOPMENT_TEAM = AJ72MKJW99;
 				INFOPLIST_FILE = FlyingWordPress/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
@@ -431,7 +431,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7DZ24LFR8Q;
+				DEVELOPMENT_TEAM = AJ72MKJW99;
 				INFOPLIST_FILE = FlyingWordPress/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
